@@ -2,11 +2,21 @@
 
 
 ### TechStack
+*Backend*
 - Java 17
 - Spring
-- Lombok   (Boilerplate)
-- GitHub   (Kollaboration)
-- AsciiDoc (Doku)
+- [Lombok   (Boilerplate)](https://projectlombok.org/features/)
+  
+*Frontend*
+- [Thymelfeaf (Full Spring integrated HTML Templater)](https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html)
+
+*Kollaboration*
+- [GitHub](https://github.com/itsDaVen/Spotify-YT-bridge)
+
+*Dokumentation*
+- [AsciiDoc](https://docs.asciidoctor.org/asciidoctor/latest/)
+
+*APIs*
 
 [Youtube API](https://developers.google.com/youtube/v3/docs?hl=de)
 
