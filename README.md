@@ -1,49 +1,52 @@
 # Spotify-YT-bridge
 
 
-techn:
+### TechStack
 - Java 17
 - Spring
-	- welche module?
-- Lombok
-- GitHub
-- AsciiDoc
+- Lombok   (Boilerplate)
+- GitHub   (Kollaboration)
+- AsciiDoc (Doku)
 
-https://developers.google.com/youtube/v3/docs?hl=de
+[Youtube API](https://developers.google.com/youtube/v3/docs?hl=de)
 
-https://developer.spotify.com/documentation/web-api
+[Spotify API](https://developer.spotify.com/documentation/web-api)
 
+ ### Use Case
+2 Freunde, 1er nutzt Spotify der andere YT-Playlists um seine Musik abzuspielen,
+einer möchte dem anderen seine Musik teilen
 
-2 Freunde, 1er hat nutzt Spotify, 1er YT-Playlists, einer möchte dem anderen seine Musik teilen
+### benötigt
 API YT + API Spotify
-
-
 
 (Anmeldung für jeweiliges Konto auf Ziel)
 
 
-Bridge Spotify<->YT(/music)
+### Ziel
 
-bsp 
-Spotify->YT
+Bridge Spotify<->YT(/music)
 
 Spotify Ergebnis aus Request so umschreiben, dass von YT API verstanden
 & vice versa
 
 
-MVP
+*MVP*
+
 CL-Anweisung 
-Parameter1:von Parameter2:auf Parameter3:Link
+Parameter1:Source Parameter2:Destination Parameter3:Link der Playlist
 
 
 
 
-Ziel
-Website mit eingabefeld
-dropdown von/zu auswahl
+*Ziel*
+
+Website mit Eingabefeld für Link und Auswahl von Source zu Destination
 
 oder 
 
-über Linkbezeichnung /String im Link
+Source über Linkbezeichnung erkennen
+
+
+*Optional*
 
 AWS deployen
