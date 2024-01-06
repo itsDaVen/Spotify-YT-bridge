@@ -1,7 +1,13 @@
 # Spotify-YT-bridge
 
+## Übergeordnetes Ziel
+Ein kollaboratives Projekt zum lernen, üben, ausprobieren unter Einhaltung üblicher Regeln mit einem kleinen TechStack
+
 
 ### TechStack
+*IDE*
+- IntelliJ
+
 *Backend*
 - Java 17
 - Spring
@@ -56,7 +62,14 @@ oder
 
 Source über Linkbezeichnung erkennen
 
-
 *Optional*
 
 AWS deployen
+
+
+
+## Dev Rules
+1. jedes Feature/Issue auf eigenem Branch bearbeiten
+2. Tests schreiben
+3. eindeutige Betitelung von Klassen, Methoden, Variablen nach Java BestPractice
+4. Möglichkeit des Code Reviews nutzen, gegenseitig helfen, Wege aufzeigen (Pull Requests)
